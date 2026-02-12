@@ -114,11 +114,11 @@ import signal
 import json
 
 # --- Configurações ---
-MATRIX_IP = "192.168.15.4"
+MATRIX_IP = "192.168.15.4" # Fixed IP for my Matrix Portal S3
 UDP_PORT = 21324
 MQTT_BROKER = "127.0.0.1"
-MQTT_USER = "radxa"
-MQTT_PASS = "4ut0l1b3r4c40"
+MQTT_USER = "USER"
+MQTT_PASS = "PASSWORD"
 ALBUM_TOPIC = "matrix/album_art"
 METADATA_TOPIC = "current_playing"  # Tópico para outros clientes (JSON)
 CAVA_CONFIG = "/home/radxa/.config/cava/config_wled"
